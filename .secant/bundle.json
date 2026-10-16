@@ -1,0 +1,15 @@
+{
+  "bundle": "a297d22d05e74c453ae9311ad0b62c16dfaf310643f8b3fe44128372ceece2ee",
+  "derived": [
+    {
+      "at": "base_sha",
+      "builder": "engineered.impacted",
+      "inputs": [
+        "coverage/<env_key>.json, only if recorded at an ancestor of the base commit (analysis.load_for)"
+      ],
+      "path": ".secant/coverage.json",
+      "required": true
+    }
+  ],
+  "name": "impacted"
+}
